@@ -1,3 +1,4 @@
+#### create spatial SeuratObject with image coordinate. by mingyuan
 library(rjson)
 library(Seurat)
 seurat_to_spatial <- function(mat,imgx,imgy){
