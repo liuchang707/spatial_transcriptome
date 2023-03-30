@@ -31,7 +31,7 @@ for line in umiinf:
         lt=a[0]+'_'+a[1]
         if lt in coor:
             if int(a[2])>=coor[lt][0] and int(a[2])<=coor[lt][1] and int(a[3])>=coor[lt][2] and int(a[3])<=coor[lt][3]:
-                if int(line[2])<=100:
+                if int(line[2])<=100: ### this is flexible~ here I dont want to count the sites with umis/genes more than 100~
                     #umiout.write('liver\t'+line[1]+'\t'+line[2]+'\n')
                     aa=(int(a[2])-coor[lt][0])//30 ### x ,30 pixel= 1 weimi
                     bb=(int(a[3])-coor[lt][2])//30 ### y, 30....
@@ -62,7 +62,7 @@ for line in geneinf:
         lt=a[0]+'_'+a[1]
         if lt in coor:
             if int(a[2])>=coor[lt][0] and int(a[2])<=coor[lt][1] and int(a[3])>=coor[lt][2] and int(a[3])<=coor[lt][3]:
-                if int(line[2])<=100:
+                if int(line[2])<=100: ##
                     #geneout.write('liver\t'+line[1]+'\t'+line[2]+'\n')
                     aa=(int(a[2])-coor[lt][0])//30
                     bb=(int(a[3])-coor[lt][2])//30
