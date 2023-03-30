@@ -1,4 +1,4 @@
-# spatial_transcriptome
+1.SeqScope spatial_transcriptome
 for SeqScope spatial transcriptome analysis, with STtools you can get three files:
 barcode.csv  ### represent coordinate
 genes.csv   ### represent genes    
