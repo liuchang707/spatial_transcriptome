@@ -1,0 +1,1 @@
+python 4.count_wanted_pixel2.py UMI_count gene_count wantted_coordinate 30pixel2_UMI_count_wanted 30pixel2_gene_count_wanted 30pixel2_pixel_density
